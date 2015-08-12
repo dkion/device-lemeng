@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_osprey.mk
+    $(LOCAL_DIR)/full_Kraft-T.mk
