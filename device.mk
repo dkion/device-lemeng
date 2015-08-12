@@ -15,7 +15,7 @@
 #
 
 
-LOCAL_PATH := device/motorola/osprey
+LOCAL_PATH := device/Lenovo/Kraft-T
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
