@@ -18,13 +18,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device.mk
-$(call inherit-product, device/motorola/osprey/device.mk)
+$(call inherit-product, device/Lenovo/Kraft-T/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := osprey
-PRODUCT_NAME := full_osprey
-PRODUCT_BRAND := Motorola
-PRODUCT_MODEL := MotoG3
-PRODUCT_MANUFACTURER := Motorola
+PRODUCT_DEVICE := Kraft-T
+PRODUCT_NAME := full_Kraft-T
+PRODUCT_BRAND := Lenovo
+PRODUCT_MODEL := Lenovo K30-T
+PRODUCT_MANUFACTURER := Lenovo
 
-$(call inherit-product-if-exists, vendor/motorola/osprey/osprey-vendor.mk)
+$(call inherit-product-if-exists, vendor/Lenovo/Kraft-T/Kraft-T-vendor.mk)
