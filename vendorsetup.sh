@@ -1,1 +1,1 @@
-add_lunch_combo cm_osprey-userdebug
+add_lunch_combo cm-kraft-T-userdebug
